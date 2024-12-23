@@ -240,6 +240,18 @@ pnpm add axios
 pnpm add -D axios-mock-adapter
 ```
 
+# 🧇 Vuetify
+
+- https://vuetifyjs.com/en/getting-started/installation/#existing-projects
+
+```shell
+pnpm add vuetify
+
+pnpm add -D vuetify vite-plugin-vuetify
+
+pnpm add @mdi/font
+```
+
 # 🥚 검토 패키지
 
 - statcounter https://gs.statcounter.com/
@@ -247,8 +259,7 @@ pnpm add -D axios-mock-adapter
 - OSS insight https://ossinsight.io/
 - State of JavaScript https://stateofjs.com/en-US
 
-### etc.
-
+### etc
 - Lodash https://lodash.com
 - VueUse https://vueuse.org
 - timeago.js https://github.com/hustcc/timeago.js
