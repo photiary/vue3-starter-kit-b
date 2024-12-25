@@ -1,12 +1,13 @@
-import '@/assets/style.scss';
-import '@/mocks';
 import { setup } from '@storybook/vue3';
 import { createPinia } from 'pinia';
+import '@/styles/style.scss';
+import '@/mocks';
+import router from '@/router';
 import vuetify from '@/plugins/vuetify';
 
+const pinia = createPinia();
 setup((app) => {
-  const pinia = createPinia();
-  app.use(vuetify).use(pinia);
+  app.use(vuetify).use(pinia).use(router);
 });
 
 /** @type { import('@storybook/vue3').Preview } */
