@@ -101,6 +101,13 @@ const libList = [
     icon: 'axios.svg',
     color: '#5a29e4',
   },
+  {
+    name: 'Vuetify',
+    href: 'https://vuetifyjs.com/',
+    version: '3',
+    icon: 'vuetify.svg',
+    color: '#1867C0',
+  },
 ];
 </script>
 
