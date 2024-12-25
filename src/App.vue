@@ -114,7 +114,14 @@ const libList = [
     href: 'https://vee-validate.logaretm.com/v4',
     version: '4',
     icon: 'vee-validate.svg',
-    color: '#2DF8D0',
+    color: '#03BF6A',
+  },
+  {
+    name: 'Vue DevTools',
+    href: 'https://devtools.vuejs.org/',
+    version: '7',
+    icon: 'vue-devtools.svg',
+    color: '#46E392',
   },
 ];
 </script>

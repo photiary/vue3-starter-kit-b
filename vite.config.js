@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import { fileURLToPath, URL } from 'node:url';
 import Vuetify from 'vite-plugin-vuetify';
+import vueDevTools from 'vite-plugin-vue-devtools';
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -13,6 +14,7 @@ export default defineConfig({
         configFile: 'src/styles/settings.scss',
       },
     }),
+    vueDevTools(),
   ],
   resolve: {
     alias: {

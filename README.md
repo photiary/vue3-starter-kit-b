@@ -1,6 +1,8 @@
 # 환경 구성
 
-`Vite` + `Vue` + `ESLint` + `Prettier` + `Pinia` + `Vue Router` + `Sass` + `Tailwindcss` + `Storybook` + `Vitest` + `Axios` + `Vuetify`
+`Vite` + `Vue` + `ESLint` + `Prettier` + `Pinia` + `Vue Router` +
+`Sass` + `Tailwindcss` + `Storybook` + `Vitest` + `Axios` +
+`VeeValidate` +  `Vue DevTools`
 
 # 🍕 프로젝트 생성
 
@@ -263,6 +265,14 @@ pnpm add vee-validate
 ###  Tailwind CSS와의 관계 
 🚨 Tailwind CSS의 스타일이 우선이 되도록 `tailwind.config.js` 설정 추가
 
+# 🍞 Vue DevTools
+
+- https://devtools.vuejs.org/guide/vite-plugin
+
+```shell
+pnpm add -D vite-plugin-vue-devtools
+```
+
 # 🥚 검토 패키지
 
 - statcounter https://gs.statcounter.com/
@@ -270,7 +280,8 @@ pnpm add vee-validate
 - OSS insight https://ossinsight.io/
 - State of JavaScript https://stateofjs.com/en-US
 
-### etc
+### etc.
+
 - Lodash https://lodash.com
 - VueUse https://vueuse.org
 - timeago.js https://github.com/hustcc/timeago.js
