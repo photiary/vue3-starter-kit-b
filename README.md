@@ -252,6 +252,14 @@ pnpm add -D vite-plugin-vuetify
 pnpm add @mdi/font
 ```
 
+# 🥞 VeeValidate
+
+- https://vee-validate.logaretm.com/v4/guide/overview/
+
+```shell
+pnpm add vee-validate
+```
+
 ###  Tailwind CSS와의 관계 
 🚨 Tailwind CSS의 스타일이 우선이 되도록 `tailwind.config.js` 설정 추가
 

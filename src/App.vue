@@ -109,6 +109,13 @@ const libList = [
     icon: 'vuetify.svg',
     color: '#1867C0',
   },
+  {
+    name: 'VeeValidate',
+    href: 'https://vee-validate.logaretm.com/v4',
+    version: '4',
+    icon: 'vee-validate.svg',
+    color: '#2DF8D0',
+  },
 ];
 </script>
 
