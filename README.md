@@ -1,6 +1,6 @@
 # 환경 구성
 
-`Vite` + `Vue` + `ESLint` + `Prettier` + `Pinia` + `Vue Router` + `Sass` + `Tailwindcss` + `Storybook` + `Vitest` + `Axios`
+`Vite` + `Vue` + `ESLint` + `Prettier` + `Pinia` + `Vue Router` + `Sass` + `Tailwindcss` + `Storybook` + `Vitest` + `Axios` + `Vuetify`
 
 # 🍕 프로젝트 생성
 
@@ -251,6 +251,9 @@ pnpm add -D vite-plugin-vuetify
 
 pnpm add @mdi/font
 ```
+
+###  Tailwind CSS와의 관계 
+🚨 Tailwind CSS의 스타일이 우선이 되도록 `tailwind.config.js` 설정 추가
 
 # 🥚 검토 패키지
 
