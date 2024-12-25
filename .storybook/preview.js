@@ -1,4 +1,5 @@
 import { setup } from '@storybook/vue3';
+import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
 import { createPinia } from 'pinia';
 import '@/styles/style.scss';
 import '@/mocks';
@@ -17,6 +18,9 @@ const preview = {
         color: /(background|color)$/i,
         date: /Date$/i,
       },
+    },
+    viewport: {
+      viewports: INITIAL_VIEWPORTS,
     },
   },
 };
