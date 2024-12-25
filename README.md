@@ -247,7 +247,7 @@ pnpm add -D axios-mock-adapter
 ```shell
 pnpm add vuetify
 
-pnpm add -D vuetify vite-plugin-vuetify
+pnpm add -D vite-plugin-vuetify
 
 pnpm add @mdi/font
 ```
