@@ -184,6 +184,13 @@ corepack use pnpm@latest
 pnpm dlx storybook@latest init
 ```
 
+### Storybook Viewport Addon
+- https://storybook.js.org/docs/essentials/viewport
+
+```shell
+pnpm add -D @storybook/addon-viewport
+```
+
 ### Pinia
 
 - https://storybook.js.org/recipes/pinia
