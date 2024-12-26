@@ -2,7 +2,7 @@
 
 `Vite` + `Vue` + `ESLint` + `Prettier` + `Pinia` + `Vue Router` +
 `Sass` + `Tailwindcss` + `Storybook` + `Vitest` + `Axios` +
-`VeeValidate` +  `Vue DevTools`
+`VeeValidate` + `Vue DevTools`
 
 # 🍕 프로젝트 생성
 
@@ -185,6 +185,7 @@ pnpm dlx storybook@latest init
 ```
 
 ### Storybook Viewport Addon
+
 - https://storybook.js.org/docs/essentials/viewport
 
 ```shell
@@ -269,7 +270,8 @@ pnpm add @mdi/font
 pnpm add vee-validate
 ```
 
-###  Tailwind CSS와의 관계 
+### Tailwind CSS와의 관계
+
 🚨 Tailwind CSS의 스타일이 우선이 되도록 `tailwind.config.js` 설정 추가
 
 # 🍞 Vue DevTools
@@ -307,6 +309,7 @@ pnpm add -D vite-plugin-vue-devtools
 - Boxicons https://boxicons.com/
 
 ### Chart
+
 https://ossinsight.io/collections/javascript-charting/
 
 - Vue Flow https://vueflow.dev
@@ -326,6 +329,7 @@ https://ossinsight.io/collections/javascript-charting/
 - rimraf https://github.com/isaacs/rimraf#readme
 
   `package.json` build 후 생성되는 dist 폴더, 리소스를 삭제하는 스크립트
+
   ```json
   {
     "scripts": {
