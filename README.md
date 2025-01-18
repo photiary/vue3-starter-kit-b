@@ -1,7 +1,7 @@
 # 환경 구성
 
 `Vite` + `Vue` + `ESLint` + `Prettier` + `Pinia` + `Vue Router` +
-`Sass` + `Tailwindcss` + `Storybook` + `Vitest` + `Axios` +
+`Sass` + `Tailwindcss` + `Storybook` + `Vitest` + `Axios` + `Vuetify` + 
 `VeeValidate` + `Vue DevTools`
 
 # 🍕 프로젝트 생성
